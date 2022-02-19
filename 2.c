@@ -81,7 +81,8 @@ func(connfd);
 // After chatting close the socket
 close(sockfd);
 }
-TCP Client:
+    /*TCP Client:*/
+
 #include <netdb.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -145,4 +146,4 @@ gcc server.c -o server
 ./server
 Client side:
 gcc client.c -o client
-./client/*
+./client*/
