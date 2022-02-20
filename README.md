@@ -55,5 +55,3 @@ Implement priority queuing as a technique to improve Quality of Service.
 
 
 
-Final:
-1,bellman,djik,16bit crc,internet checksum,leakybucket,Qos,gobacknslide,rsa

@@ -9,6 +9,8 @@ size.
 #include<stdio.h>
 #include<math.h>
 //to find gcd
+
+
 int gcd(int a, int h)
 {
 int temp;
@@ -21,6 +23,8 @@ a = h;
 h = temp;
 }
 }
+
+
 int main()
 {
 //2 random prime numbers
@@ -33,6 +37,7 @@ double totient = (p-1)*(q-1);
 //e stands for encrypt
 double e=2;
 //for checking co-prime which satisfies e>1
+
 while(e<totient){
 count = gcd(e,totient);
 if(count==1)
@@ -40,6 +45,7 @@ break;
 else
 e++;
 }
+
 //private key
 //d stands for decrypt
 double d;
