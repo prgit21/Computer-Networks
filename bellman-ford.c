@@ -8,7 +8,7 @@ unsigned from[20];
 
 int main()
 {
-int costmat[20][20];
+int costmat[20][20];                                     //costmat,nodes,i,j,k
 int nodes,i,j,k,count=0;                                //accept nodes and cost
 printf("\nEnter the number of nodes : ");
 scanf("%d",&nodes);  //Enter the nodes

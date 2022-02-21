@@ -29,7 +29,7 @@ int main()
 {                                          //2 random prime numbers
 
 double p = 3;
-double q = 7;
+double q = 7;                                 //p,q,n,totient,count,msg,e,c,m
 double n=p*q;
 double count;
 double totient = (p-1)*(q-1);

@@ -3,7 +3,7 @@
 void dij(int n,int v,int cost[10][10],int dist[])
 
 {
-int i,u,count,w,flag[10],min;                           //init
+int i,u,count,w,flag[10],min;                             //init
 for(i=1;i<=n;i++)
 flag[i]=0,dist[i]=cost[v][i];
 count=2;

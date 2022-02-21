@@ -8,8 +8,9 @@ void check(int);
 void display_pqueue();
 
 
-int pri_que[MAX];
-int front, rear;
+int pri_que[MAX];                                               //priq,front,rear,ch
+int front, rear;                                                //insert,delete,create,check
+
 
 
 

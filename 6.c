@@ -25,7 +25,7 @@ sum=sum+temp;
 if(fl==1)
 {
 printf("Enter the checksum value \n");
-scanf ("%x", &temp);                    //accept checksum and encode
+scanf ("%x", &temp);                    //accept checksum and encode %x
 sum+=temp;
 }
 

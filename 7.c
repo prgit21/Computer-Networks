@@ -7,7 +7,7 @@ int main()
 {
 int orate,drop=0,cap,x,count=0,
 inp[10]={0},i=0,nsec,ch;
-printf(" \n enter bucket size : ");
+printf(" \n enter bucket size : ");                 //cap,x,i,nsec,ch,count,orate,drop
 scanf("%d",&cap);
 
 

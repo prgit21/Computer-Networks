@@ -4,7 +4,7 @@ int main()
 int w,i,f,frames[50];
 printf("Enter window size: ");
 scanf("%d",&w);
-printf("\nEnter number of frames to transmit: ");
+printf("\nEnter number of frames to transmit: ");                   //w,i,f,frames[100]
 scanf("%d",&f);
 printf("\nEnter %d frames: ",f);
 for(i=1;i<=f;i++)
