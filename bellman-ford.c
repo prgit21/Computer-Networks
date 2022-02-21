@@ -1,7 +1,7 @@
 #include<stdio.h>
 struct node
 {
-unsigned dist[20];
+unsigned dist[20];                          //create struct rt
 unsigned from[20];
 }rt[10];
 
@@ -9,7 +9,7 @@ unsigned from[20];
 int main()
 {
 int costmat[20][20];
-int nodes,i,j,k,count=0;
+int nodes,i,j,k,count=0;                                //accept nodes and cost
 printf("\nEnter the number of nodes : ");
 scanf("%d",&nodes);  //Enter the nodes
 printf("\nEnter the cost matrix :\n");
@@ -20,7 +20,7 @@ for(i=0;i<nodes;i++)
 for(j=0;j<nodes;j++)
 {
 scanf("%d",&costmat[i][j]);
-costmat[i][i]=0;            //init source
+costmat[i][i]=0;                                 //init source
 rt[i].dist[j]=costmat[i][j];
 rt[i].from[j]=j;
 }

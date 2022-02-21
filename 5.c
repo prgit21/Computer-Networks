@@ -13,10 +13,14 @@ strncpy(divd,agdtw,r);
 divd[r]='\0';
 l=0;
 memset(rem, 0,18);
+
+
 while(l<t)
 {
 a=0;
 memset(rem, 0,18);
+
+
 if(divd[0]==divs[0])
 {
 for(i=1;i<r;i++)
@@ -34,18 +38,26 @@ else
 strncpy(divd,&divd[1],strlen(divd)-1);
 divd[r-1]='\0';
 }
+
+
 int o=strlen(divd);
 divd[o]=agdtw[l+r];
 divd[r]='\0';
 l++;
 }
+
+
 strncpy(remd,divd,r-1);
 remd[r-1]='\0';
 }
+
+
 void binary(char letter,char bin[])
 {
 int t,c,i=7;
 c=(int)letter;
+
+
 while(i>=0)
 {
 t=c%2;
@@ -57,6 +69,8 @@ bin[8]='\0';
 char ascii(char bin[])
 {
 int t=0,c,i=7;
+
+
 while(i>=0)
 {
 t=t+pow(2,7-i)*(bin[i]-'0');
@@ -64,6 +78,8 @@ i--;
 }
 return t;
 }
+
+
 void main()
 {
 char
@@ -112,4 +128,4 @@ msg[k++]=ascii(bin);
 msg[k]='\0';
 printf("\nRecieved Message = %s\n\n",msg);
 }
-gcc prog5.c -lm
+//gcc prog5.c -lm

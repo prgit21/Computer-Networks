@@ -18,7 +18,7 @@ while(1)
 {
 temp = a%h;
 if(temp==0)
-return h;
+return h;                                        //GCD
 a = h;
 h = temp;
 }
@@ -26,8 +26,8 @@ h = temp;
 
 
 int main()
-{
-//2 random prime numbers
+{                                          //2 random prime numbers
+
 double p = 3;
 double q = 7;
 double n=p*q;

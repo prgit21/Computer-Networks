@@ -52,6 +52,3 @@ Implement priority queuing as a technique to improve Quality of Service.
 
 
 12. Write a program for simple RSA algorithm to encrypt and decrypt the data
-
-
-

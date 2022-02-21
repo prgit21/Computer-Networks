@@ -5,7 +5,7 @@ with the following contents: “Hello we are at Computer Networks Lab” Display
 suitable error message in case the file is not present in the server.
 
 
-2. Write a program to find shortest paths from source to all nodes in the network graph                       Revise tough
+2. Write a program to find shortest paths from source to all nodes in the network graph                       Done,Revise 
 using Bellman Ford Algorithm.
 
 
@@ -17,14 +17,14 @@ using Dijkstra’s shortest path algorithm.
 unreliable network code using CRC (16-bits) Technique.
 
 
-5. Write a program to implement internet checksum for error correction and detection.                          Possible
+5. Write a program to implement internet checksum for error correction and detection.                           Done
 
 
 6. Write a program to achieve Traffic management at Flow level by implementing Leaky                            Done
 Bucket Algorithm.   
 
 7. Packets from different flows arrive at a switch or router for processing. A good
-scheduling technique treats the different flows in a fair and appropriate manner.                               Possible
+scheduling technique treats the different flows in a fair and appropriate manner.                               Done,do delete
 Implement priority queuing as a technique to improve Quality of Service.
 
 8. Write a program to imcplement Go Back N sliding window protocol                                              Done
